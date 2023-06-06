@@ -3,7 +3,7 @@ import memesData from "../memesData";
 function Meme() {
     const handleClick = () => {
         const randomMeme = memesData[Math.floor(Math.random() * memesData.length)];
-        console.log(randomMeme);
+        console.log(randomMeme.name);
     };
 
   return (
