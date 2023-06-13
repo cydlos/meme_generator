@@ -1,4 +1,5 @@
 import memesData from "../memesData";
+import React from "react";
 
 function Meme() {
     const handleClick = () => {
